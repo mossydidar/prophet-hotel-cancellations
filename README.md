@@ -95,7 +95,7 @@ forecast_data = pro_change.predict(future_data)
 pro_change.plot(forecast_data);
 ```
 
-[h1forecasts.png](h1forecasts.png)
+![h1forecasts.png](h1forecasts.png)
 
 ### H1 Results
 
@@ -118,7 +118,7 @@ forecast_data = pro_change.predict(future_data)
 pro_change.plot(forecast_data);
 ```
 
-[h2forecasts.png](h2forecasts.png)
+![h2forecasts.png](h2forecasts.png)
 
 ### H2 Results
 
