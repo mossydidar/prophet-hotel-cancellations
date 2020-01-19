@@ -133,7 +133,21 @@ pro_holiday.plot(forecast_data);
 
 Here are the H1 and H2 Results for the second Prophet model:
 
-(table)
+### H1 Results
+
+| Reading      | ARIMA | LSTM | Prophet Model 2 |
+| ----------- | ----------- | ----------- | ----------- |
+| MDA      | 0.86       | 0.8       | 0.86       |
+| RMSE   | 57.95        | 64.34       | 46.98       |
+| MFE   | -12.72        | -52.22        | 39.7        |
+
+### H2 Results
+
+| Reading      | ARIMA | LSTM | Prophet Model 2 |
+| ----------- | ----------- | ----------- | ----------- |
+| MDA      | 0.86       | 0.8       | 0.86       |
+| RMSE   | 274.07        | 92       | 122.47       |
+| MFE   | 156.32        | 29.19        | -68.44        |
 
 For the H1 dataset, the Prophet model now outperforms both ARIMA and LSTM on an RMSE basis. For H2, the LSTM model still outperforms on an RMSE and MAE basis.
 
