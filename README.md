@@ -22,7 +22,7 @@ One of the advantages of Prophet is being able to automatically detect changes i
 
 For this example, 20 changepoints are specified for the prediction.
 
-Here is a visual overview of the specified changepoints:
+As an example, here is a visual overview of the specified changepoints:
 
 ![1](1.png)
 
