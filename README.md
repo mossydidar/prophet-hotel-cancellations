@@ -227,4 +227,4 @@ Facebook’s Prophet library excels when it comes to modelling time series data 
 
 In this regard, configuring the Prophet model for forecasting weekly hotel cancellations showed superior performance to ARIMA and LSTM in certain circumstances, while LSTM still demonstrated superior performance on the second hotel dataset – where time series data was significantly more volatile.
 
-Many thanks for your time!
+Many thanks for your time - you can also find the GitHub repository with associated Jupyter Notebooks [here](https://github.com/MGCodesandStats/prophet-hotel-cancellations).
