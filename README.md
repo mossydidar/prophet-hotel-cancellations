@@ -75,6 +75,28 @@ Therefore, ARIMA and LSTM are used as reference points to compare model performa
 
 3.	**Mean Absolute Error** (Average value of all errors).
 
+```
+# pro_change.fit(train_dataset)
+future_data = pro_change.make_future_dataframe(periods=15, freq = 'w')
+ 
+#forecast the data for future data
+forecast_data = pro_change.predict(future_data)
+pro_change.plot(forecast_data);
+```
+
+Here are the generated forecasts for H1:
+
+```
+# pro_change.fit(train_dataset)
+future_data = pro_change.make_future_dataframe(periods=15, freq = 'w')
+ 
+#forecast the data for future data
+forecast_data = pro_change.predict(future_data)
+pro_change.plot(forecast_data);
+```
+
+(h1forecast.png)
+
 ### H1 Results
 
 | Reading      | ARIMA | LSTM | Prophet Model 1 |
@@ -84,6 +106,19 @@ Therefore, ARIMA and LSTM are used as reference points to compare model performa
 | MAE   | -12.72        | -52.22        | 45.69        |
 
 In this instance, it is observed that Prophet outperformed ARIMA and LSTM on an RMSE basis, while ARIMA still showed a lower mean absolute error for the H1 dataset.
+
+These are the generated forecasts for H2:
+
+```
+# pro_change.fit(train_dataset)
+future_data = pro_change.make_future_dataframe(periods=15, freq = 'w')
+ 
+#forecast the data for future data
+forecast_data = pro_change.predict(future_data)
+pro_change.plot(forecast_data);
+```
+
+(h2forecast.png)
 
 ### H2 Results
 
