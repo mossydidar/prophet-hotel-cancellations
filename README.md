@@ -69,11 +69,11 @@ ARIMA performed well on the first dataset (where hotel cancellations showed more
 
 Therefore, ARIMA and LSTM are used as reference points to compare model performance across three benchmarks:
 
-1.	Mean Directional Accuracy (the extent to which the forecasts accurately predict the direction of the time series; i.e. are hotel cancellations increasing or decreasing).
+1.	**Mean Directional Accuracy** (the extent to which the forecasts accurately predict the direction of the time series; i.e. are hotel cancellations increasing or decreasing).
 
-2.	Root Mean Squared Error (Difference between predicted and observed values)
+2.	**Root Mean Squared Error** (Difference between predicted and observed values).
 
-3.	Mean Absolute Error (Average value of all errors)
+3.	**Mean Absolute Error** (Average value of all errors).
 
 ### H1 Results
 
