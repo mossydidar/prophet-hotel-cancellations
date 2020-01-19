@@ -41,7 +41,10 @@ Using Prophet, two models are run:
 
 ## Model 1 (20 Changepoints – No assumed seasonality – No holiday months)
 
-Having previously used ARIMA and LSTM models to forecast weekly hotel cancellations across two Portuguese hotels – the results were a mixed bag. ARIMA performed well on the first dataset (where hotel cancellations showed more of a trend pattern with less volatility), while the second dataset showed more volatility and greater fluctuations in hotel cancellations.
+Having previously used ARIMA and LSTM models to forecast weekly hotel cancellations across two Portuguese hotels – the results were a mixed bag.
+
+ARIMA performed well on the first dataset (where hotel cancellations showed more of a trend pattern with less volatility), while the second dataset showed more volatility and greater fluctuations in hotel cancellations.
+
 Therefore, ARIMA and LSTM are used as reference points to compare model performance across three benchmarks:
 
 1.	Mean Directional Accuracy (the extent to which the forecasts accurately predict the direction of the time series; i.e. are hotel cancellations increasing or decreasing).
