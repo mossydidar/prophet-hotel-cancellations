@@ -53,11 +53,23 @@ Therefore, ARIMA and LSTM are used as reference points to compare model performa
 
 3.	Mean Absolute Error (Average value of all errors)
 
-(results H1)
+### H1 Results
+
+| Reading      | ARIMA | LSTM | Prophet Model 1 |
+| ----------- | ----------- | ----------- | ----------- |
+| MDA      | 0.86       | 0.8       | 0.86       |
+| RMSE   | 57.95        | 64.34       | 52.08       |
+| MFE   | -12.72        | -52.22        | 45.69        |
 
 In this instance, it is observed that Prophet outperformed ARIMA and LSTM on an RMSE basis, while ARIMA still showed a lower mean absolute error for the H1 dataset.
 
-(results H2)
+### H2 Results
+
+| Reading      | ARIMA | LSTM | Prophet Model 2 |
+| ----------- | ----------- | ----------- | ----------- |
+| MDA      | 0.86       | 0.8       | 0.86       |
+| RMSE   | 274.07        | 92       | 119.27       |
+| MFE   | 156.32        | 29.19        | -63.74        |
 
 While ARIMA and Prophet showed a slightly higher MDA, the LSTM model still outperformed these two models on an RMSE and MAE basis.
 
