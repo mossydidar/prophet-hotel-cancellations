@@ -10,7 +10,7 @@ Here is a visual inspection of the two time series:
 
 ### H1
 
-![image h1](image h1.png)
+[image h1](image h1.png)
 
 ### H2
 
