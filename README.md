@@ -14,7 +14,7 @@ Here is a visual inspection of the two time series:
 
 ### H2
 
-(image h2)
+![h2](h2.png)
 
 ## Trend Changepoints
 
@@ -24,7 +24,7 @@ For this example, 20 changepoints are specified for the prediction.
 
 Here is a visual overview of the specified changepoints:
 
-(image 1)
+![1](1.png)
 
 In the first instance, the predictions are generated without any seasonality, i.e. daily, weekly, and yearly seasonality are disabled.
 
@@ -109,12 +109,12 @@ pro_holiday.plot(forecast_data);
 
 ## Forecast for Model 1
 
-(image 2)
+![2](2.png)
 
 
 ## Forecast for Model 2
 
-(image 3)
+![3](3.png)
 
 Here are the H1 and H2 Results for the second Prophet model:
 
