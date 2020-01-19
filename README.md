@@ -1,6 +1,6 @@
 # Using Prophet To Forecast Weekly Hotel Cancellations
 
-Prophet is an open-source time series tool designed by Facebook. The key feature of Prophet is the ability to fit non-linear trends with the effects of seasonality over certain periods (e.g. daily, monthly, weekly), along with holiday effects.
+[Prophet](https://facebook.github.io/prophet/docs/trend_changepoints.html) is an open-source time series tool designed by Facebook. The key feature of Prophet is the ability to fit non-linear trends with the effects of seasonality over certain periods (e.g. daily, monthly, weekly), along with holiday effects.
 
 In this example, Prophet is used for the purposes of forecasting fluctuations in the number of hotel cancellations per week for two separate Portuguese hotels, i.e. the models are run on two separate time series.
 
