@@ -2,9 +2,31 @@
 
 [Prophet](https://facebook.github.io/prophet/docs/trend_changepoints.html) is an open-source time series tool designed by Facebook. The key feature of Prophet is the ability to fit non-linear trends with the effects of seasonality over certain periods (e.g. daily, monthly, weekly), along with holiday effects.
 
+Prophet can be installed with Anaconda as follows (Python 3.6.5. was used in this instance):
+
+```
+!conda install -c plotly plotly==3.10.0 --yes
+!conda install -c conda-forge fbprophet --yes
+from fbprophet import Prophet
+Prophet()
+```
+
 In this example, Prophet is used for the purposes of forecasting fluctuations in the number of hotel cancellations per week for two separate Portuguese hotels, i.e. the models are run on two separate time series.
 
 Both series were split into 100 weeks of training data and 15 weeks of test data.
+
+```
+train_df=dataset[:100]
+train_df
+
+test_df=dataset[-15:]
+test_df
+
+train_dataset= pd.DataFrame()
+train_dataset['ds'] = train_df['Date']
+train_dataset['y']= train_df['IsCanceled']
+train_dataset.head(100)
+```
 
 Here is a visual inspection of the two time series:
 
