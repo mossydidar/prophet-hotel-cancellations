@@ -65,7 +65,7 @@ In this instance, it is observed that Prophet outperformed ARIMA and LSTM on an 
 
 ### H2 Results
 
-| Reading      | ARIMA | LSTM | Prophet Model 2 |
+| Reading      | ARIMA | LSTM | Prophet Model 1 |
 | ----------- | ----------- | ----------- | ----------- |
 | MDA      | 0.86       | 0.8       | 0.86       |
 | RMSE   | 274.07        | 92       | 119.27       |
