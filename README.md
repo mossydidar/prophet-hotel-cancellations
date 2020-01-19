@@ -8,15 +8,15 @@ Both series were split into 100 weeks of training data and 15 weeks of test data
 
 Here is a visual inspection of the two time series:
 
-H1
+### H1
 
 (image h1)
 
-H2
+### H2
 
 (image h2)
 
-Trend Changepoints
+## Trend Changepoints
 
 One of the advantages of Prophet is being able to automatically detect changes in trend in a time series.
 
@@ -28,7 +28,7 @@ Here is a visual overview of the specified changepoints:
 
 In the first instance, the predictions are generated without any seasonality, i.e. daily, weekly, and yearly seasonality are disabled.
 
-Holiday months
+## Holiday months
 
 In addition to specifying changepoints in order to mark shifts in the trend data, Prophet also allows the option for specification of holiday effects, e.g. one would expect that sales for retail stores spike around Christmas time.
 
@@ -39,7 +39,7 @@ Using Prophet, two models are run:
 1.	20 changepoints are assumed, no seasonality is assumed, and no holiday months are specified.
 2.	20 changepoints are specified, weekly seasonality is assumed, and the weeks of June, July and August are specified as holiday months for the years 2015 and 2016 (2017 data is not included as it is test data).
 
-Model 1 (20 Changepoints – No assumed seasonality – No holiday months)
+## Model 1 (20 Changepoints – No assumed seasonality – No holiday months)
 
 Having previously used ARIMA and LSTM models to forecast weekly hotel cancellations across two Portuguese hotels – the results were a mixed bag. ARIMA performed well on the first dataset (where hotel cancellations showed more of a trend pattern with less volatility), while the second dataset showed more volatility and greater fluctuations in hotel cancellations.
 Therefore, ARIMA and LSTM are used as reference points to compare model performance across three benchmarks:
@@ -58,7 +58,7 @@ In this instance, it is observed that Prophet outperformed ARIMA and LSTM on an 
 
 While ARIMA and Prophet showed a slightly higher MDA, the LSTM model still outperformed these two models on an RMSE and MAE basis.
 
-Model 2 (20 Changepoints – Weekly Seasonality – Holiday months of June, July and August specified)
+## Model 2 (20 Changepoints – Weekly Seasonality – Holiday months of June, July and August specified)
 
 An attempt is made to improve the Prophet model performance by specifying weekly seasonality and adding holiday effects.
 
@@ -107,12 +107,12 @@ forecast_data = pro_holiday.predict(future_data)
 pro_holiday.plot(forecast_data);
 ```
 
-Forecast for Model 1
+## Forecast for Model 1
 
 (image 2)
 
 
-Forecast for Model 2
+## Forecast for Model 2
 
 (image 3)
 
@@ -122,7 +122,7 @@ Here are the H1 and H2 Results for the second Prophet model:
 
 For the H1 dataset, the Prophet model now outperforms both ARIMA and LSTM on an RMSE basis. For H2, the LSTM model still outperforms on an RMSE and MAE basis.
 
-Conclusion
+## Conclusion
 
 Facebook’s Prophet library excels when it comes to modelling time series data where:
 
