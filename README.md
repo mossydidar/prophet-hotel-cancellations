@@ -5,7 +5,15 @@
 [E-mail me](mailto:contact@michaeljgrogan.com) |
 [LinkedIn](https://www.linkedin.com/in/michaeljgrogan/)
 
-# Using Prophet To Forecast Weekly Hotel Cancellations
+# Part 4: Using Prophet To Forecast Weekly Hotel Cancellations
+
+*This is Part 4 of a multi-part project on predicting hotel cancellations with machine learning.*
+
+*[- Part 1: Predicting Hotel Cancellations with Support Vector Machines and ARIMA](https://michael-grogan.com/hotel-cancellations)*
+
+*[- Part 2: Predicting Hotel Cancellations with a Keras Neural Network](https://michael-grogan.com/hotel-cancellations-neuralnetwork)*
+
+*[- Part 3: Predicting Weekly Hotel Cancellations with an LSTM Network](https://www.michael-grogan.com/hotel-cancellations-lstm)*
 
 [Prophet](https://facebook.github.io/prophet/docs/trend_changepoints.html) is an open-source time series tool designed by Facebook. The key feature of Prophet is the ability to fit non-linear trends with the effects of seasonality over certain periods (e.g. daily, monthly, weekly), along with holiday effects.
 
