@@ -7,7 +7,7 @@
 
 # Part 4: Using Prophet To Forecast Weekly Hotel Cancellations
 
-*This is Part 4 of a multi-part project on predicting hotel cancellations with machine learning.*
+*This is Part 4 of a multi-part project on predicting hotel cancellations with machine learning. The study builds upon original [research](https://www.researchgate.net/publication/310504011_Predicting_Hotel_Booking_Cancellation_to_Decrease_Uncertainty_and_Increase_Revenue) conducted using data for two Portuguese hotels.*
 
 *[- Part 1: Predicting Hotel Cancellations with Support Vector Machines and ARIMA](https://michael-grogan.com/hotel-cancellations)*
 
